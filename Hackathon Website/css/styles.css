@@ -1,0 +1,230 @@
+
+html{
+  zoom: 90%;
+}
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #077b8a ;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: black;
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  text-decoration-color: black;
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url('imageonline-co-invertedimage.jpg');
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url('imageonline-co-invertedimage.jpg');
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('imageonline-co-invertedimage.jpg');
+  color: white;
+  text-align: left;
+  #title {
+}
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  height: 400px;
+  border-radius: 5%;
+  width: 320px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ff0040;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: black;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color:#d72631;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  margin-bottom: -27px;
+  background-color: black;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#press img {
+   margin-top: 50px;
+    height: 200px;
+    width: 250px;
+    border: 10px #8f8f8f solid;
+    border-radius: 8%;
+    border-color: #f3ca20;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+
+    position: static;
+    transform: rotate(0);
+  }
+}
+#whatis {
+    background-image: url('imageonline-co-invertedimage (1) (1).jpg');
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url('imageonline-co-invertedimage (1) (1).jpg');
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('imageonline-co-invertedimage (1) (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#whatis img {
+    height: 500px;
+    width: 2000px;
+    border: 3px solid olivedrab;
+    border-radius: 1%;
+}
+
+#peep {
+    font-family: "Montserrat-Light";
+    font-size: 2.5rem;
+}
+
+#peep2 {
+    font-family: "Montserrat-Light";
+    font-size: 3rem;
+}
